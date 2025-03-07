@@ -10,7 +10,7 @@ function ProductDetail({ id }) {
 
     // ✅ Fix 1: Directly use path from `public/images/`
     const getImagePath = (imageName) => {
-        return `/images/${imageName}`;  // Direct path from `public/images/`
+        return `/products_react_app/images/${imageName}`;  // Direct path from `public/images/`
     };
 
     return (
