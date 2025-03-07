@@ -2,70 +2,70 @@
     {
         "id": 1,
         "name": "Wireless Keyboard",
-        "image": "/src/images/wl_keyboard.jpg",
+        "image": "/images/wl_keyboard.jpg",
         "price": 29.99,
         "description": "A comfortable wireless keyboard with long battery life."
     },
     {
         "id": 2,
         "name": "Bluetooth Mouse",
-        "image": "/src/images/bt_mouse.jpg",
+        "image": "/images/bt_mouse.jpg",
         "price": 19.99,
         "description": "Ergonomic and compact mouse with Bluetooth connectivity."
     },
     {
         "id": 3,
         "name": "USB-C Hub",
-        "image": "/src/images/usbc_hub.jpg",
+        "image": "/images/usbc_hub.jpg",
         "price": 39.99,
         "description": "Multi-port hub with HDMI, USB, and SD card support."
     },
     {
         "id": 4,
         "name": "Mechanical Keyboard",
-        "image": "/src/images/mech_keyboard.jpg",
+        "image": "/images/mech_keyboard.jpg",
         "price": 89.99,
         "description": "High-quality mechanical keyboard with customizable RGB lights."
     },
     {
         "id": 5,
         "name": "Noise Cancelling Headphones",
-        "image": "/src/images/nc_headphones.jpg",
+        "image": "/images/nc_headphones.jpg",
         "price": 99.99,
         "description": "Over-ear headphones with active noise cancellation."
     },
     {
         "id": 6,
         "name": "Portable SSD",
-        "image": "/src/images/portable_ssd.jpg",
+        "image": "/images/portable_ssd.jpg",
         "price": 129.99,
         "description": "1TB high-speed portable SSD for fast data transfer."
     },
     {
         "id": 7,
         "name": "Webcam 1080p",
-        "image": "/src/images/webcam.jpg",
+        "image": "/images/webcam.jpg",
         "price": 49.99,
         "description": "Full HD webcam with auto-focus and built-in microphone."
     },
     {
         "id": 8,
         "name": "Gaming Mousepad",
-        "image": "/src/images/mousepad.jpg",
+        "image": "/images/mousepad.jpg",
         "price": 14.99,
         "description": "Large, non-slip gaming mousepad with smooth surface."
     },
     {
         "id": 9,
         "name": "Smartphone Stand",
-        "image": "/src/images/phone_stand.jpg",
+        "image": "/images/phone_stand.jpg",
         "price": 9.99,
         "description": "Adjustable aluminum stand for smartphones and tablets."
     },
     {
         "id": 10,
         "name": "Laptop Cooling Pad",
-        "image": "/src/images/laptop_cooler.jpg",
+        "image": "/images/laptop_cooler.jpg",
         "price": 34.99,
         "description": "Silent cooling pad with adjustable fan speed."
     }
