@@ -8,16 +8,16 @@ function ProductDetail({ id }) {
         return <p>Product not found</p>;
     }
 
-    // If images are inside `src/images/`, resolve path dynamically
+    // ✅ Fix 1: Directly use path from `public/images/`
     const getImagePath = (imageName) => {
-        return new URL(`/images/${imageName}`, import.meta.url).href;
+        return `/images/${imageName}`;  // Direct path from `public/images/`
     };
 
     return (
         <div className="product-container">
             <h1>{product.name}</h1>
             <img 
-                src={getImagePath(product.image)} // ✅ Fix 1: Dynamic import
+                src={getImagePath(product.image)}  // ✅ Now this should resolve to public/images/
                 alt={product.name} 
                 className="product-image" 
             />
@@ -28,5 +28,6 @@ function ProductDetail({ id }) {
 }
 
 export default ProductDetail;
+
 
 
