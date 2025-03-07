@@ -10,7 +10,7 @@ function ProductDetail({ id }) {
 
     // If images are inside `src/images/`, resolve path dynamically
     const getImagePath = (imageName) => {
-        return new URL(`./images/${imageName}`, import.meta.url).href;
+        return new URL(`/images/${imageName}`, import.meta.url).href;
     };
 
     return (
